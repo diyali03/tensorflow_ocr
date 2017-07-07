@@ -9,4 +9,6 @@ Fixed the command error
 
 Environment: Ubuntu 16+; Python 3.6; Tensorflow-CPU
 
+Finished testing Tensorflow OCR by SpikeFlow; recognition result even lower than tesseract. Plus, Spike using openCV to train single word. It is not worth to do that.
+
 
