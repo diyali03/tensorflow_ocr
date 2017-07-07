@@ -19,3 +19,11 @@
     LDFLAGS="-L/usr/local/lib" CFLAGS="-I/usr/local/include" make
     sudo make install
     sudo ldconfig
+
+
+error-libtool, says that the version mismatch
+
+try running:
+    autoreconf --force --install
+    ./configure
+    makes
